@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="record_button">record button</string>
+    <string name="harmonica">harmonica</string>
 </resources>
