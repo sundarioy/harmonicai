@@ -2,4 +2,5 @@
     <string name="app_name">My Application</string>
     <string name="record_button">record button</string>
     <string name="harmonica">harmonica</string>
+    <string name="warningText">Are you sure you want to quit?</string>
 </resources>
