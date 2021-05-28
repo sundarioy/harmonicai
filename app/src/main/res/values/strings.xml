@@ -1,6 +1,10 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Harmonicai</string>
     <string name="record_button">record button</string>
     <string name="harmonica">harmonica</string>
     <string name="warningText">Are you sure you want to quit?</string>
+    <string name="t_quit">Quit</string>
+    <string name="t_record">Record</string>
+    <string name="permissions_warning"><![CDATA[Permissions > Centang semua izin aplikasi]]></string>
+    <string name="t_start_recording">Start recording</string>
 </resources>
