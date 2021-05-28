@@ -4,24 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EAEAEA"
+    android:background="@color/bg_main_color"
     tools:context=".MainActivity">
-
-    <ImageButton
-        android:id="@+id/button"
-        android:layout_width="30dp"
+    <Button
+        android:id="@+id/btn_record"
+        android:layout_width="wrap_content"
         android:layout_height="30dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginRight="20dp"
+        android:text="@string/t_record"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:textAllCaps="false"
         android:background="@drawable/record_button"
-        android:contentDescription="@string/record_button"
-        app:srcCompat="@drawable/ic_fiber_manual_record_black_24dp"
+        android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        app:layout_constraintTop_toTopOf="parent"/>
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/iv_harmonica"
         android:layout_width="123dp"
         android:layout_height="649dp"
         android:contentDescription="@string/harmonica"
@@ -30,104 +28,104 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/harmo" />
-
     <Button
         android:id="@+id/c3"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="48dp"
+        android:background="@color/bg_main_color"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView" />
-
+        app:layout_constraintTop_toTopOf="@+id/iv_harmonica" />
     <Button
         android:id="@+id/d3"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="104dp"
+        android:background="@color/bg_main_color"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView" />
-
+        app:layout_constraintTop_toTopOf="@+id/iv_harmonica" />
     <Button
         android:id="@+id/e3"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="156dp"
+        android:background="@color/bg_main_color"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView" />
-
+        app:layout_constraintTop_toTopOf="@+id/iv_harmonica" />
     <Button
         android:id="@+id/f3"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="208dp"
+        android:background="@color/bg_main_color"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView" />
-
+        app:layout_constraintTop_toTopOf="@+id/iv_harmonica" />
     <Button
         android:id="@+id/g3"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="260dp"
+        android:background="@color/bg_main_color"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView" />
-
+        app:layout_constraintTop_toTopOf="@+id/iv_harmonica" />
     <Button
         android:id="@+id/a3"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="316dp"
+        android:background="@color/bg_main_color"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView" />
-
+        app:layout_constraintTop_toTopOf="@+id/iv_harmonica" />
     <Button
         android:id="@+id/b3"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="372dp"
+        android:background="@color/bg_main_color"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView" />
-
+        app:layout_constraintTop_toTopOf="@+id/iv_harmonica" />
     <Button
         android:id="@+id/c4"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="428dp"
+        android:background="@color/bg_main_color"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView" />
-
+        app:layout_constraintTop_toTopOf="@+id/iv_harmonica" />
     <Button
         android:id="@+id/d4"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="480dp"
+        android:background="@color/bg_main_color"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView" />
-
+        app:layout_constraintTop_toTopOf="@+id/iv_harmonica" />
     <Button
         android:id="@+id/e4"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="532dp"
+        android:background="@color/bg_main_color"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView" />
+        app:layout_constraintTop_toTopOf="@+id/iv_harmonica" />
 </androidx.constraintlayout.widget.ConstraintLayout>
